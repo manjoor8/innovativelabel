@@ -71,12 +71,12 @@ a:hover {
 .navbar-brand {
   font-family: var(--font-heading);
   font-weight: 700;
-  color: var(--primary-color) !important;
+  color: red !important;
   font-size: 1.5rem;
 }
 
 .navbar-brand span {
-  color: var(--secondary-color);
+  color: red;
 }
 
 .nav-link {
