@@ -165,7 +165,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop Links */}
-          <div className="hidden lg:flex items-center xl:gap-1 lg:gap-0.5">
+          <div className="hidden xl:flex items-center gap-1.5">
             {navLinks.map((link) => {
               const hasChildren = link.children && link.children.length > 0;
               const isActive =
@@ -275,7 +275,7 @@ export default function Header() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="flex lg:hidden items-center gap-3">
+          <div className="flex xl:hidden items-center gap-3">
             <Link
               href="/request-a-quote"
               className="bg-primary-red text-white text-xs font-bold py-1.5 px-3 rounded shadow-sm"
@@ -295,7 +295,7 @@ export default function Header() {
 
       {/* Mobile Drawer Menu */}
       <div
-        className={`fixed inset-0 z-40 bg-black/50 transition-opacity duration-300 lg:hidden ${
+        className={`fixed inset-0 z-40 bg-black/50 transition-opacity duration-300 xl:hidden ${
           isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         }`}
         onClick={() => setIsOpen(false)}
