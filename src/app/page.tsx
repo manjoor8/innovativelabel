@@ -382,20 +382,20 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 7. Specialty Label Horizontal Banner */}
-      <section className="bg-primary-blue text-white py-12 overflow-x-auto whitespace-nowrap">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center gap-8 md:justify-between">
-          <div className="flex-shrink-0 text-left">
-            <span className="text-[10px] font-bold text-accent-blue uppercase tracking-wider block">
-              Functional Substrates
-            </span>
-            <span className="text-base font-extrabold font-heading">Specialty Finishes Available</span>
-          </div>
-          <div className="flex items-center gap-6 overflow-x-auto py-2">
+      {/* 7. Specialty Label Finishes */}
+      <section className="bg-primary-blue text-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span className="text-xs font-bold uppercase tracking-wider text-red-400">
+            Functional Substrates
+          </span>
+          <h2 className="text-3xl font-extrabold text-white mt-2 mb-8 font-heading">
+            Specialty Finishes Available
+          </h2>
+          <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
             {specialtyShowcase.map((spec) => (
               <span
                 key={spec}
-                className="bg-white/10 border border-white/20 px-3.5 py-1.5 rounded-full text-xs font-semibold select-none"
+                className="bg-white/10 border border-white/15 hover:bg-white/20 px-5 py-2.5 rounded-full text-xs font-semibold select-none transition-all duration-200 cursor-default"
               >
                 {spec}
               </span>
