@@ -146,7 +146,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex flex-col select-none">
             <span className="text-xl md:text-2xl font-extrabold tracking-tight text-primary-blue font-heading leading-tight">
-              INACTIVE <span className="text-primary-red">LABEL SOLUTIONS</span>
+              INNOVATIVE <span className="text-primary-red">LABEL SOLUTIONS</span>
             </span>
             <span className="text-[9px] font-bold text-gray-500 tracking-[0.25em] uppercase -mt-0.5">
               Complete Packaging Solutions
@@ -154,7 +154,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop Links */}
-          <div className="hidden lg:flex items-center gap-1">
+          <div className="hidden lg:flex items-center xl:gap-1 lg:gap-0.5">
             {navLinks.map((link) => {
               const hasChildren = link.children && link.children.length > 0;
               const isActive =
@@ -169,7 +169,7 @@ export default function Header() {
                     onMouseLeave={() => setActiveDropdown(null)}
                   >
                     <button
-                      className={`px-3 py-1.5 text-sm font-semibold rounded-md flex items-center gap-1 transition-all ${
+                      className={`xl:px-3 lg:px-2 py-1.5 xl:text-sm lg:text-xs font-semibold rounded-md flex items-center gap-1 whitespace-nowrap transition-all ${
                         isActive
                           ? "text-primary-red bg-red-50/50"
                           : "text-gray-700 hover:text-primary-blue hover:bg-gray-50"
@@ -243,7 +243,7 @@ export default function Header() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className={`px-3 py-1.5 text-sm font-semibold rounded-md transition-all ${
+                  className={`xl:px-3 lg:px-2 py-1.5 xl:text-sm lg:text-xs font-semibold rounded-md whitespace-nowrap transition-all ${
                     pathname === link.href
                       ? "text-primary-red bg-red-50/50 font-bold"
                       : "text-gray-700 hover:text-primary-blue hover:bg-gray-50"
@@ -257,7 +257,7 @@ export default function Header() {
             {/* CTA Button */}
             <Link
               href="/request-a-quote"
-              className="ml-4 bg-primary-red hover:bg-red-700 text-white text-sm font-bold py-2 px-4 rounded-md transition-all shadow-sm flex items-center gap-2 hover:scale-[1.02]"
+              className="xl:ml-4 lg:ml-2 bg-primary-red hover:bg-red-700 text-white xl:text-sm lg:text-xs font-bold py-2 xl:px-4 lg:px-3 rounded-md whitespace-nowrap transition-all shadow-sm flex items-center gap-2 hover:scale-[1.02]"
             >
               Request Quote
             </Link>

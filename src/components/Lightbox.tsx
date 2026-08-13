@@ -60,7 +60,7 @@ export default function Lightbox({ images, currentIndex, onClose, onPrev, onNext
       <div className="flex-1 flex justify-between items-center gap-4 relative py-8">
         <button
           onClick={onPrev}
-          className="absolute left-0 md:left-4 z-10 text-white hover:text-primary-red bg-white/5 border border-white/10 hover:bg-white/10 p-3 rounded-full transition-all"
+          className="absolute left-0 md:left-4 z-10 text-white hover:text-red-400 bg-white/5 border border-white/10 hover:bg-white/10 p-3 rounded-full transition-all"
           aria-label="Previous image"
         >
           <ChevronLeft className="w-6 h-6" />
@@ -81,7 +81,7 @@ export default function Lightbox({ images, currentIndex, onClose, onPrev, onNext
 
         <button
           onClick={onNext}
-          className="absolute right-0 md:right-4 z-10 text-white hover:text-primary-red bg-white/5 border border-white/10 hover:bg-white/10 p-3 rounded-full transition-all"
+          className="absolute right-0 md:right-4 z-10 text-white hover:text-red-400 bg-white/5 border border-white/10 hover:bg-white/10 p-3 rounded-full transition-all"
           aria-label="Next image"
         >
           <ChevronRight className="w-6 h-6" />
