@@ -45,6 +45,7 @@ export default function Header() {
         { name: "Company Growth", href: "/about/company-growth" },
         { name: "Management Structure", href: "/about/management" },
         { name: "Our Team", href: "/about/team" },
+        { name: "Contact Us", href: "/contact" },
       ],
     },
     {
@@ -107,7 +108,6 @@ export default function Header() {
         { name: "Case Studies", href: "/resources/case-studies" },
       ],
     },
-    { name: "Contact", href: "/contact" },
   ];
 
   return (
