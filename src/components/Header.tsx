@@ -144,13 +144,24 @@ export default function Header() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
           {/* Logo */}
-          <Link href="/" className="flex flex-col select-none">
-            <span className="text-xl md:text-2xl font-extrabold tracking-tight text-primary-blue font-heading leading-tight">
-              INNOVATIVE <span className="text-primary-red">LABEL SOLUTIONS</span>
-            </span>
-            <span className="text-[9px] font-bold text-gray-500 tracking-[0.25em] uppercase -mt-0.5">
-              Complete Packaging Solutions
-            </span>
+          <Link href="/" className="flex items-center gap-2.5 select-none group">
+            <div className="bg-red-50 text-primary-red p-2 rounded-lg border border-primary-red/10 group-hover:scale-105 transition-transform flex-shrink-0">
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                {/* Stylized label scroll icon */}
+                <path d="M6 2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" />
+                <path d="M6 12h12" className="text-primary-blue" />
+                <path d="M6 16h8" className="text-primary-blue" />
+                <path d="M14 6h4v4h-4z" className="text-primary-blue fill-current" />
+              </svg>
+            </div>
+            <div className="flex flex-col text-left">
+              <span className="text-sm md:text-base font-black tracking-tight text-primary-blue font-heading leading-tight whitespace-nowrap">
+                INNOVATIVE <span className="text-primary-red">LABEL SOLUTIONS</span>
+              </span>
+              <span className="text-[9px] font-bold text-gray-500 tracking-[0.22em] uppercase -mt-0.5 whitespace-nowrap">
+                Complete Packaging Solutions
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Links */}

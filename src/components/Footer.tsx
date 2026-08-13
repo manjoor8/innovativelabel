@@ -46,13 +46,24 @@ export default function Footer() {
         
         {/* Column 1: Company Profile Description */}
         <div className="lg:col-span-2 flex flex-col gap-6">
-          <Link href="/" className="flex flex-col select-none">
-            <span className="text-2xl font-extrabold tracking-tight text-white font-heading">
-              INNOVATIVE <span className="text-primary-red">LABEL SOLUTIONS</span>
-            </span>
-            <span className="text-[10px] font-bold text-white/50 tracking-[0.25em] uppercase mt-0.5">
-              Complete Packaging Solution Providers
-            </span>
+          <Link href="/" className="flex items-center gap-2.5 select-none group">
+            <div className="bg-white/10 text-white p-2 rounded-lg border border-white/10 group-hover:scale-105 transition-transform flex-shrink-0">
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                {/* Stylized label scroll icon */}
+                <path d="M6 2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" />
+                <path d="M6 12h12" className="text-white/60" />
+                <path d="M6 16h8" className="text-white/60" />
+                <path d="M14 6h4v4h-4z" className="text-primary-red fill-current" />
+              </svg>
+            </div>
+            <div className="flex flex-col text-left">
+              <span className="text-sm md:text-base font-black tracking-tight text-white font-heading leading-tight whitespace-nowrap">
+                INNOVATIVE <span className="text-primary-red">LABEL SOLUTIONS</span>
+              </span>
+              <span className="text-[9px] font-bold text-white/50 tracking-[0.22em] uppercase -mt-0.5 whitespace-nowrap">
+                Complete Packaging Solutions
+              </span>
+            </div>
           </Link>
           <p className="text-sm text-white/70 leading-relaxed max-w-sm">
             ISO 9001:2015 certified manufacturer of high-quality pressure-sensitive labels, self-adhesive labels, shrink sleeves, and cartons. Operating a 25,000 sq. ft. facility in Dombivli MIDC.
