@@ -70,8 +70,8 @@ All assets are saved under `public/assets/images/`:
 
 ## Content Awaiting Company Confirmation
 Certain operational parameters are populated with development placeholders and require verified details before going live:
-1. **Telephone & Mobile**: Replace `[OFFICIAL PHONE NUMBER REQUIRED]` on header, footer, contact page, and schema scripts with the company's official business phone number.
-2. **Postal Code**: Verify Dombivli MIDC office address postal code (schema script).
+1. **Telephone & Mobile**: [Completed] Updated to +91-7738223544.
+2. **Postal Code**: [Completed] Updated to 421203 (Plot No W-2, Phase II, MIDC, Dombivli East).
 3. **Minimum Order Quantities**: MOQs per label variant are set to a descriptive guide template; exact minimum quantities should be finalized.
 4. **Lead Times**: Standard production lead times are set to template statements.
 5. **SMTP / Email Backend**: Set up SMTP configurations in Next.js Server Actions to email specifications submitted on the quote form.

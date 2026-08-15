@@ -23,14 +23,14 @@ export const metadata: Metadata = {
     default: "Innovative Label Solutions Pvt. Ltd. | Packaging & Label Manufacturer",
     template: "%s | Innovative Label Solutions"
   },
-  description: "ISO 9001:2015 certified manufacturer of high-quality pressure-sensitive labels, self-adhesive labels, shrink sleeves, and cartons in Dombivli MIDC, Mumbai, Maharashtra.",
+  description: "ISO 9001:2015 & cGMP Certified manufacturer of high-quality pressure-sensitive labels, self-adhesive labels, shrink sleeves, and cartons in Dombivli MIDC, Mumbai, Maharashtra.",
   metadataBase: new URL("https://labelsolutions.in"),
   alternates: {
     canonical: "./",
   },
   openGraph: {
     title: "Innovative Label Solutions Pvt. Ltd.",
-    description: "Complete B2B Packaging & Label Printing Solutions in India. ISO 9001:2015 certified facility.",
+    description: "Complete B2B Packaging & Label Printing Solutions in India. ISO 9001:2015 & cGMP Certified facility.",
     url: "https://labelsolutions.in",
     siteName: "Innovative Label Solutions",
     locale: "en_US",

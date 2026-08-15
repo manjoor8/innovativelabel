@@ -127,13 +127,13 @@ export default function Home() {
             "image": "https://labelsolutions.in/assets/images/logo.jpg",
             "@id": "https://labelsolutions.in/#localbusiness",
             "url": "https://labelsolutions.in",
-            "telephone": "[OFFICIAL PHONE NUMBER REQUIRED]",
+            "telephone": "+91-7738223544",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Dombivli MIDC",
-              "addressLocality": "Dombivli",
+              "streetAddress": "Plot No W-2, Phase II, MIDC, Dombivli East",
+              "addressLocality": "Kalyan",
               "addressRegion": "Maharashtra",
-              "postalCode": "[POSTAL CODE REQUIRED]",
+              "postalCode": "421203",
               "addressCountry": "IN"
             },
             "geo": {
@@ -164,7 +164,7 @@ export default function Home() {
           <div className="lg:col-span-7 flex flex-col gap-6 text-left">
             <span className="inline-flex items-center gap-1.5 bg-white/10 border border-white/20 text-accent-blue text-xs font-bold px-3 py-1 rounded-full w-max uppercase tracking-wider">
               <Award className="w-3.5 h-3.5 text-primary-red" />
-              ISO 9001:2015 Certified Manufacturer
+              ISO 9001:2015 & cGMP Certified company
             </span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight font-heading">
               Complete Packaging & <span className="text-primary-red">Label Solutions</span>

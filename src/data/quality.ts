@@ -24,9 +24,9 @@ export const qualityData: QualitySection[] = [
   },
   {
     slug: "iso-9001-certification",
-    name: "ISO 9001:2015 Certification",
-    title: "ISO 9001:2015 Certified Manufacturing Facility",
-    intro: "Our facility is certified under ISO 9001:2015, proving our adherence to international quality management system standards. This certification guarantees that our processes from raw material procurement to print, die-cutting, packaging, and dispatch follow documented protocols.",
+    name: "ISO 9001:2015 & cGMP Certification",
+    title: "ISO 9001:2015 & cGMP Certified Manufacturing Facility",
+    intro: "Our facility is certified under ISO 9001:2015 and current Good Manufacturing Practice (cGMP) standards, proving our adherence to international quality management systems and pharmaceutical-grade sanitation. This certification guarantees that our processes from raw material procurement to print, die-cutting, packaging, and dispatch follow documented protocols.",
     certificateImg: "/assets/images/quality/iso-certificate.jpg",
     points: [
       "Documented standard operating procedures (SOPs) for all production processes",

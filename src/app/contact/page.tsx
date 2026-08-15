@@ -11,7 +11,7 @@ export default function ContactPage() {
   const contactInfo = [
     {
       title: "Factory Address",
-      desc: "Innovative Label Solutions Pvt. Ltd., 25,000 sq. ft. Plant, Dombivli MIDC, Thane District, Maharashtra, India. (15 min walking distance from Dombivali Station).",
+      desc: "Innovative Label Solutions Pvt. Ltd., Plot No W-2, Phase II, MIDC, Dombivli East, Kalyan, Maharashtra 421203. (15 min walking distance from Dombivali Station).",
       icon: MapPin
     },
     {
@@ -21,7 +21,7 @@ export default function ContactPage() {
     },
     {
       title: "Phone Numbers",
-      desc: "[OFFICIAL PHONE NUMBER REQUIRED]\nSupport hours: Mon - Sat, 9:00 AM - 6:00 PM IST",
+      desc: "+91-7738223544\nSupport hours: Mon - Sat, 9:00 AM - 6:00 PM IST",
       icon: Phone
     },
     {
@@ -71,13 +71,17 @@ export default function ContactPage() {
               })}
             </div>
 
-            {/* Embed Map Placeholder */}
-            <div className="border border-gray-150 rounded-xl overflow-hidden shadow-sm h-64 relative bg-gray-50 flex items-center justify-center text-gray-400">
-              <Landmark className="w-8 h-8 text-primary-blue mb-1" />
-              <div className="absolute inset-0 flex flex-col justify-end p-4 text-center bg-gradient-to-t from-black/60 to-transparent">
-                <span className="text-xs font-bold text-white leading-tight">Dombivli MIDC Manufacturing Facility</span>
-                <span className="text-[10px] text-white/70 mt-0.5">Map API integration requiring company account coordinates.</span>
-              </div>
+            {/* Embed Map */}
+            <div className="border border-gray-150 rounded-xl overflow-hidden shadow-sm h-64 relative bg-gray-50">
+              <iframe
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                src="https://maps.google.com/maps?q=6422%2B96%20Dombivli%20East%20Dombivli%20Kalyan%20Maharashtra&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                allowFullScreen
+                loading="lazy"
+                title="Innovative Label Solutions Location Map"
+              ></iframe>
             </div>
           </div>
 

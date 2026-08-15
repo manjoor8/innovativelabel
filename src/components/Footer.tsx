@@ -66,12 +66,12 @@ export default function Footer() {
             </div>
           </Link>
           <p className="text-sm text-white/70 leading-relaxed max-w-sm">
-            ISO 9001:2015 certified manufacturer of high-quality pressure-sensitive labels, self-adhesive labels, shrink sleeves, and cartons. Operating a 25,000 sq. ft. facility in Dombivli MIDC.
+            ISO 9001:2015 & cGMP Certified manufacturer of high-quality pressure-sensitive labels, self-adhesive labels, shrink sleeves, and cartons. Operating a 25,000 sq. ft. facility in Dombivli MIDC.
           </p>
           <div className="flex items-center gap-3">
             <span className="bg-white/5 border border-white/10 rounded-md p-2 flex items-center gap-2">
               <ShieldCheck className="w-5 h-5 text-primary-red" />
-              <span className="text-[11px] font-bold tracking-wide uppercase">ISO 9001:2015 Certified</span>
+              <span className="text-[11px] font-bold tracking-wide uppercase">ISO 9001:2015 & cGMP Certified</span>
             </span>
           </div>
           <div className="flex items-center gap-4 mt-2">
@@ -144,7 +144,7 @@ export default function Footer() {
           <div>
             <h5 className="font-bold text-white mb-1">Factory Location</h5>
             <p className="leading-relaxed">
-              25,000 sq. ft. Plant, Dombivli MIDC, Mumbai Metropolitan Region, Maharashtra, India.
+              Plot No W-2, Phase II, MIDC, Dombivli East, Kalyan, Maharashtra 421203.
             </p>
           </div>
         </div>
@@ -167,7 +167,7 @@ export default function Footer() {
           <div>
             <h5 className="font-bold text-white mb-1">Phone Enquiries</h5>
             <p className="flex flex-col">
-              <span>[OFFICIAL PHONE NUMBER REQUIRED]</span>
+              <a href="tel:+917738223544" className="hover:text-red-400 transition-colors font-semibold">+91 7738223544</a>
               <span className="text-xs text-white/50">Mon - Sat: 9:00 AM - 6:00 PM</span>
             </p>
           </div>

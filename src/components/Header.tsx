@@ -93,7 +93,7 @@ export default function Header() {
       href: "/quality",
       children: [
         { name: "Quality Policy", href: "/quality/quality-policy" },
-        { name: "ISO 9001:2015 Certification", href: "/quality/iso-9001-certification" },
+        { name: "ISO 9001 & cGMP Certification", href: "/quality/iso-9001-certification" },
         { name: "Quality Control Process", href: "/quality/quality-control-process" },
       ],
     },
@@ -123,12 +123,12 @@ export default function Header() {
           </span>
           <span className="hidden sm:flex items-center gap-1.5">
             <Phone className="w-3.5 h-3.5 text-accent-blue" />
-            <span>[OFFICIAL PHONE NUMBER REQUIRED]</span>
+            <a href="tel:+917738223544" className="hover:text-accent-blue transition-colors">+91-7738223544</a>
           </span>
         </div>
         <div className="flex items-center gap-4">
           <span className="bg-primary-red text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded">
-            ISO 9001:2015 Certified
+            ISO 9001:2015 & cGMP Certified
           </span>
           <span className="hidden md:inline text-white/70">Dombivli MIDC, MMR, India</span>
         </div>
@@ -376,10 +376,10 @@ export default function Header() {
                 <Mail className="w-4 h-4 text-accent-blue" />
                 info@labelsolutions.in
               </span>
-              <span className="flex items-center gap-2">
+              <a href="tel:+917738223544" className="flex items-center gap-2 hover:text-primary-red transition-colors">
                 <Phone className="w-4 h-4 text-accent-blue" />
-                [OFFICIAL PHONE NUMBER REQUIRED]
-              </span>
+                +91-7738223544
+              </a>
             </div>
             <Link
               href="/request-a-quote"
